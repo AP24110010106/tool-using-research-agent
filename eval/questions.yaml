@@ -1,0 +1,70 @@
+questions:
+  - id: Q01
+    question: "What causes coral bleaching and how does ocean warming contribute to it?"
+    authoritative_domains:
+      - noaa.gov
+    category: climate
+
+  - id: Q02
+    question: "What causes ocean tides and what roles do the Moon and Sun play?"
+    authoritative_domains:
+      - noaa.gov
+      - nasa.gov
+    category: earth_science
+
+  - id: Q03
+    question: "What is the greenhouse effect and how do human activities strengthen it?"
+    authoritative_domains:
+      - nasa.gov
+      - noaa.gov
+      - epa.gov
+    category: climate
+
+  - id: Q04
+    question: "What causes earthquakes and how are earthquake magnitudes measured?"
+    authoritative_domains:
+      - usgs.gov
+    category: earth_science
+
+  - id: Q05
+    question: "What is antibiotic resistance and what contributes to its development?"
+    authoritative_domains:
+      - cdc.gov
+      - who.int
+    category: health
+
+  - id: Q06
+    question: "How do vaccines help the immune system develop protection against disease?"
+    authoritative_domains:
+      - cdc.gov
+      - who.int
+      - nih.gov
+    category: health
+
+  - id: Q07
+    question: "What is a solar photovoltaic cell and how does it convert sunlight into electricity?"
+    authoritative_domains:
+      - energy.gov
+      - nrel.gov
+    category: energy
+
+  - id: Q08
+    question: "What is multifactor authentication and why does it improve account security?"
+    authoritative_domains:
+      - nist.gov
+      - cisa.gov
+    category: cybersecurity
+
+  - id: Q09
+    question: "What is DNS and what role does it play when a user visits a website?"
+    authoritative_domains:
+      - icann.org
+      - cloudflare.com
+    category: computing
+
+  - id: Q10
+    question: "What is the difference between weather and climate?"
+    authoritative_domains:
+      - noaa.gov
+      - nasa.gov
+    category: climate

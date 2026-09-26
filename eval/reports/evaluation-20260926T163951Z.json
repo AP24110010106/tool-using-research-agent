@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-09-26T16:39:51.369226+00:00",
+  "summary": {
+    "questions": 10,
+    "successful_runs": 5,
+    "success_rate": 50.0,
+    "self_stop_rate": 50.0,
+    "valid_citation_rate": 50.0,
+    "authoritative_source_rate": 30.0,
+    "reachable_url_rate": 50.0,
+    "average_iterations": 5.2,
+    "average_tool_calls": 3.9,
+    "average_tokens": 15060.6
+  },
+  "results": [
+    {
+      "id": "Q01",
+      "category": "climate",
+      "question": "What causes coral bleaching and how does ocean warming contribute to it?",
+      "success": true,
+      "self_stopped": true,
+      "citations_valid": true,
+      "authoritative_source": true,
+      "urls_reachable": true,
+      "iterations": 3,
+      "tool_calls": 2,
+      "total_tokens": 7298,
+      "source_count": 1,
+      "termination": "finish",
+      "cited_urls": [
+        "https://oceanservice.noaa.gov/facts/coral_bleach.html"
+      ],
+      "url_checks": {
+        "https://oceanservice.noaa.gov/facts/coral_bleach.html": true
+      },
+      "run_id": "20260926T162411Z-1e27b59a"
+    },
+    {
+      "id": "Q02",
+      "category": "earth_science",
+      "question": "What causes ocean tides and what roles do the Moon and Sun play?",
+      "success": false,
+      "self_stopped": false,
+      "citations_valid": false,
+      "authoritative_source": false,
+      "urls_reachable": false,
+      "iterations": 7,
+      "tool_calls": 5,
+      "total_tokens": 24166,
+      "source_count": 0,
+      "termination": "token_limit",
+      "cited_urls": [],
+      "url_checks": {},
+      "run_id": "20260926T162422Z-ff3d0db1"
+    },
+    {
+      "id": "Q03",
+      "category": "climate",
+      "question": "What is the greenhouse effect and how do human activities strengthen it?",
+      "success": true,
+      "self_stopped": true,
+      "citations_valid": true,
+      "authoritative_source": false,
+      "urls_reachable": true,
+      "iterations": 4,
+      "tool_calls": 3,
+      "total_tokens": 12790,
+      "source_count": 1,
+      "termination": "finish",
+      "cited_urls": [
+        "https://www.ipcc.ch/help/frequently-asked-questions/"
+      ],
+      "url_checks": {
+        "https://www.ipcc.ch/help/frequently-asked-questions/": true
+      },
+      "run_id": "20260926T162655Z-bb3b81a0"
+    },
+    {
+      "id": "Q04",
+      "category": "earth_science",
+      "question": "What causes earthquakes and how are earthquake magnitudes measured?",
+      "success": false,
+      "self_stopped": false,
+      "citations_valid": false,
+      "authoritative_source": false,
+      "urls_reachable": false,
+      "iterations": 8,
+      "tool_calls": 7,
+      "total_tokens": 20317,
+      "source_count": 0,
+      "termination": "token_limit",
+      "cited_urls": [],
+      "url_checks": {},
+      "run_id": "20260926T162820Z-8893f4ef"
+    },
+    {
+      "id": "Q05",
+      "category": "health",
+      "question": "What is antibiotic resistance and what contributes to its development?",
+      "success": false,
+      "self_stopped": false,
+      "citations_valid": false,
+      "authoritative_source": false,
+      "urls_reachable": false,
+      "iterations": 8,
+      "tool_calls": 8,
+      "total_tokens": 19563,
+      "source_count": 0,
+      "termination": "iteration_limit",
+      "cited_urls": [],
+      "url_checks": {},
+      "run_id": "20260926T163045Z-531134a0"
+    },
+    {
+      "id": "Q06",
+      "category": "health",
+      "question": "How do vaccines help the immune system develop protection against disease?",
+      "success": false,
+      "self_stopped": false,
+      "citations_valid": false,
+      "authoritative_source": false,
+      "urls_reachable": false,
+      "iterations": 6,
+      "tool_calls": 3,
+      "total_tokens": 20478,
+      "source_count": 0,
+      "termination": "token_limit",
+      "cited_urls": [],
+      "url_checks": {},
+      "run_id": "20260926T163304Z-e32c6e7c"
+    },
+    {
+      "id": "Q07",
+      "category": "energy",
+      "question": "What is a solar photovoltaic cell and how does it convert sunlight into electricity?",
+      "success": true,
+      "self_stopped": true,
+      "citations_valid": true,
+      "authoritative_source": true,
+      "urls_reachable": true,
+      "iterations": 3,
+      "tool_calls": 2,
+      "total_tokens": 7691,
+      "source_count": 1,
+      "termination": "finish",
+      "cited_urls": [
+        "https://www.energy.gov/cmei/systems/solar-photovoltaic-cell-basics"
+      ],
+      "url_checks": {
+        "https://www.energy.gov/cmei/systems/solar-photovoltaic-cell-basics": true
+      },
+      "run_id": "20260926T163521Z-4fca190a"
+    },
+    {
+      "id": "Q08",
+      "category": "cybersecurity",
+      "question": "What is multifactor authentication and why does it improve account security?",
+      "success": true,
+      "self_stopped": true,
+      "citations_valid": true,
+      "authoritative_source": true,
+      "urls_reachable": true,
+      "iterations": 3,
+      "tool_calls": 2,
+      "total_tokens": 7790,
+      "source_count": 1,
+      "termination": "finish",
+      "cited_urls": [
+        "https://csrc.nist.gov/glossary/term/multi_factor_authentication"
+      ],
+      "url_checks": {
+        "https://csrc.nist.gov/glossary/term/multi_factor_authentication": true
+      },
+      "run_id": "20260926T163607Z-502a21f4"
+    },
+    {
+      "id": "Q09",
+      "category": "computing",
+      "question": "What is DNS and what role does it play when a user visits a website?",
+      "success": false,
+      "self_stopped": false,
+      "citations_valid": false,
+      "authoritative_source": false,
+      "urls_reachable": false,
+      "iterations": 7,
+      "tool_calls": 5,
+      "total_tokens": 22837,
+      "source_count": 0,
+      "termination": "token_limit",
+      "cited_urls": [],
+      "url_checks": {},
+      "run_id": "20260926T163703Z-7bdf063c"
+    },
+    {
+      "id": "Q10",
+      "category": "climate",
+      "question": "What is the difference between weather and climate?",
+      "success": true,
+      "self_stopped": true,
+      "citations_valid": true,
+      "authoritative_source": false,
+      "urls_reachable": true,
+      "iterations": 3,
+      "tool_calls": 2,
+      "total_tokens": 7676,
+      "source_count": 1,
+      "termination": "finish",
+      "cited_urls": [
+        "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Weather_vs_climate_What_s_the_difference"
+      ],
+      "url_checks": {
+        "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Weather_vs_climate_What_s_the_difference": true
+      },
+      "run_id": "20260926T163909Z-fcb2f901"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+groq
+httpx
+trafilatura
+python-dotenv
+pydantic
+PyYAML
+pytest
+rich
